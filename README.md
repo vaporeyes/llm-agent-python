@@ -106,21 +106,17 @@ The project uses pytest for unit testing. Comprehensive tests have been written 
 
 ```bash
 # Install test dependencies
-uv pip install -G dev
+uv sync
 
 # Run all tests
-pytest
+uv run pytest
 
 # Run specific test files
-pytest tests/test_main.py
+uv run pytest tests/test_main.py
 
 # Run with verbose output
-pytest -v
+uv run pytest -v
 
 # Run with code coverage
-pytest --cov=.
+uv run pytest --cov=.
 ```
-
-## License
-
-This project is licensed under the MIT License.
