@@ -18,10 +18,7 @@ This project uses `uv` for Python package management.
 
 ```bash
 # Install dependencies
-uv pip install -r requirements.txt
-
-# Or install directly from pyproject.toml
-uv pip install -e .
+uv sync
 ```
 
 ## Usage
