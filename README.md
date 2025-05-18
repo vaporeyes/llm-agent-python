@@ -1,5 +1,7 @@
 # LLM Agent Python
 
+Ideas borrowed from [How to Build an Agent](https://ampcode.com/how-to-build-an-agent)
+
 A Python implementation of a code-editing agent that can help with both general questions and code-related tasks. The agent uses various LLM providers (Anthropic Claude, OpenAI) and can read files, list directories, and edit files.
 
 ## Features
