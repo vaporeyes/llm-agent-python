@@ -50,13 +50,13 @@ Options:
 
 ```bash
 # Chat with Claude and show stats
-python main.py chat --provider anthropic --stats
+uv run python main.py chat --provider anthropic --stats
 
 # Chat with OpenAI GPT-4 and export chat history
-python main.py chat --provider openai --output my_chat.json
+uv run python main.py chat --provider openai --output my_chat.json
 
 # Combine stats and chat history export
-python main.py chat --stats --output
+uv run python main.py chat --stats --output
 ```
 
 ## Project Structure
